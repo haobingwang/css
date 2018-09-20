@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'lakeshore';
+  /* src 顺序非常重要！*/
+  src: url(font/LAKESHORE-webfont.eot);
+  src: url(font/LAKESHORE-webfont.eot) format('embedded-opentype'),
+  url(font/LAKESHORE-webfont.woff?#iefix) format('wofff')
+  url(font/LAKESHORE-webfont.ttf) format('truetype'),
+  url(font/LAKESHORE-webfont.svg#lakeshore) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.logo-text {
+  font-family: lakeshore;
+}
